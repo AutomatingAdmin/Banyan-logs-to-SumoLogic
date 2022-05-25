@@ -25,6 +25,6 @@ It's designed to be run every 10 minutes as an AWS Lambda function.
 You may end up with v3.9 packages depending on your dev environment, so make sure to set the python interpreter accordingly to match.
 
 ##### Downloads for `cryptography` and `cffi` packages  
-<br>
-`pip download cffi --platform manylinux2014_x86_64 --no-deps -d path_to_save_download`
-`pip download cryptography --platform manylinux2014_x86_64 --no-deps -d *path_to_save_download*`
+
+```pip download cffi --platform manylinux2014_x86_64 --no-deps -d path_to_save_download```
+```pip download cryptography --platform manylinux2014_x86_64 --no-deps -d *path_to_save_download*```
