@@ -26,5 +26,5 @@ You may end up with v3.9 packages depending on your dev environment, so make sur
 
 ##### Downloads for `cryptography` and `cffi` packages  
 
-```pip download cffi --platform manylinux2014_x86_64 --no-deps -d path_to_save_download```
+```pip download cffi --platform manylinux2014_x86_64 --no-deps -d path_to_save_download```  
 ```pip download cryptography --platform manylinux2014_x86_64 --no-deps -d path_to_save_download```
