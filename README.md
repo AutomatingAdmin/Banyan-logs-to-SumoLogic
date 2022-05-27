@@ -14,7 +14,7 @@ It's designed to be run every 10 minutes as an AWS Lambda function.
 
 ## Environment Variables
 
-* `BANYAN_REFRESH_TOKEN` - get one from your [Banyan profile] page
+* `BANYAN_REFRESH_TOKEN` - get one from your [Banyan profile](https://net.banyanops.com/app/myprofile) page, or generate an [API key](https://net.banyanops.com/app/settings/org/api-keys) if using SAML to login to Banyan.
 * `BANYAN_API_URL` - (optional) defaults to `https://net.banyanops.com`
 * `SUMO_WEBHOOK` - the webhook URL for your Sumo HTTP source
 
